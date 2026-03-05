@@ -9,12 +9,16 @@ function setLanguage(lang) {
 }
 
 function applyLanguage(lang) {
-    document.getElementById('currentLang').innerText = lang.toUpperCase();
+    if (document.getElementById('currentLang')) {
+        document.getElementById('currentLang').innerText = lang.toUpperCase();
+    }
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         el.innerText = translations[lang][key];
     });
-    document.getElementById('langMenu').style.display = 'none';
+    if (document.getElementById('langMenu')) {
+        document.getElementById('langMenu').style.display = 'none';
+    }
 }
 
 function toggleLang() { const m = document.getElementById('langMenu'); m.style.display = m.style.display === 'flex' ? 'none' : 'flex' }
