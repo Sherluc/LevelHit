@@ -30,6 +30,7 @@ let lastScroll = 0;
 window.addEventListener('scroll', () => {
     const current = window.pageYOffset;
     const header = document.getElementById('mainHeader');
+    if (!header) return
     if (current === 0) { header.classList.remove('hide'); return }
     if (current > lastScroll) { header.classList.add('hide'); }
     else { header.classList.remove('hide'); }
