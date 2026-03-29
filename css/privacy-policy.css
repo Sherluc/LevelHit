@@ -1,0 +1,117 @@
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10vh 24px 24px;
+  color: #000;
+  line-height: 1.7;
+}
+
+/* --- En-tête --- */
+.privacy-policy header h1 {
+  font-size: 32px; /* = .title */
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.privacy-policy header p {
+  font-size: 14px; /* meta / sous-titre */
+  color: #555;
+  margin-bottom: 0;
+}
+
+/* --- Navigation / Table des matières --- */
+.privacy-policy nav {
+  margin: 32px 0;
+  padding: 20px 24px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.privacy-policy nav h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.privacy-policy nav ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.privacy-policy nav li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.privacy-policy nav a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.privacy-policy nav a:hover {
+  opacity: 0.6;
+}
+
+/* --- Sections --- */
+.privacy-policy section {
+  margin-bottom: 40px;
+}
+
+/* --- Titres de section (h2) --- */
+.privacy-policy section h2 {
+  font-size: 22px; /* entre .title 32px et le corps */
+  font-weight: bold;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000000;
+}
+
+/* --- Corps de texte --- */
+.privacy-policy p,
+.privacy-policy li,
+.privacy-policy address {
+  font-size: 18px; /* déduit comme corps standard */
+  margin-bottom: 12px;
+}
+
+.privacy-policy ul,
+.privacy-policy ol {
+  padding-left: 22px;
+  margin-bottom: 12px;
+}
+
+.privacy-policy li {
+  margin-bottom: 8px;
+}
+
+/* --- Liens --- */
+.privacy-policy a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.privacy-policy a:hover {
+  opacity: 0.6;
+}
+
+/* --- Adresse contact --- */
+.privacy-policy address {
+  font-style: normal;
+  margin-bottom: 16px;
+  line-height: 1.9;
+}
+
+/* --- Footer --- */
+.privacy-policy footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid #000000;
+}
+
+.privacy-policy footer small {
+  font-size: 13px;
+  color: #888;
+}

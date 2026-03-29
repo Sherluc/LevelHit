@@ -1,11 +1,16 @@
 const translations = {
-    fr: { welcome: "Bienvenue", goPage1: "Aller au premier jeu", text: "Bientôt disponible", legal: "Mentions légales", privacy: "Politique de confidentialité" },
-    en: { welcome: "Welcome", goPage1: "Go to first game", text: "Coming soon", legal: "Legal Notice", privacy: "Privacy Policy" },
+    fr: { welcome: "Bienvenue", goPage1: "Aller au premier jeu", text: "Bientôt disponible", legal: "Mentions légales", privacy: "Politique de confidentialité", terms: "Conditions générales d'utilisation", rights: "© 2026 Level Hit — Tous droits réservés" },
+    en: { welcome: "Welcome", goPage1: "Go to first game", text: "Coming soon", legal: "Legal Notice", privacy: "Privacy Policy", "terms": "Terms of service", rights: "© 2026 Level Hit — All rights reserved" },
 };
 
 function setLanguage(lang) {
     localStorage.setItem('siteLang', lang);
     applyLanguage(lang);
+}
+
+function setLanguageAndRedirect(lang, path) {
+    setLanguage(lang);
+    window.location.replace(path);
 }
 
 function applyLanguage(lang) {

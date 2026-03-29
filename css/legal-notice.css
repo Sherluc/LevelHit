@@ -1,0 +1,117 @@
+.legal-notice {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10vh 24px 24px;
+  color: #000;
+  line-height: 1.7;
+}
+
+/* --- En-tête --- */
+.legal-notice header h1 {
+  font-size: 32px; /* = .title */
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.legal-notice header p {
+  font-size: 14px; /* meta / sous-titre */
+  color: #555;
+  margin-bottom: 0;
+}
+
+/* --- Navigation / Table des matières --- */
+.legal-notice nav {
+  margin: 32px 0;
+  padding: 20px 24px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.legal-notice nav h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.legal-notice nav ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.legal-notice nav li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.legal-notice nav a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.legal-notice nav a:hover {
+  opacity: 0.6;
+}
+
+/* --- Sections --- */
+.legal-notice section {
+  margin-bottom: 40px;
+}
+
+/* --- Titres de section (h2) --- */
+.legal-notice section h2 {
+  font-size: 22px; /* entre .title 32px et le corps */
+  font-weight: bold;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000000;
+}
+
+/* --- Corps de texte --- */
+.legal-notice p,
+.legal-notice li,
+.legal-notice address {
+  font-size: 18px; /* déduit comme corps standard */
+  margin-bottom: 12px;
+}
+
+.legal-notice ul,
+.legal-notice ol {
+  padding-left: 22px;
+  margin-bottom: 12px;
+}
+
+.legal-notice li {
+  margin-bottom: 8px;
+}
+
+/* --- Liens --- */
+.legal-notice a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.legal-notice a:hover {
+  opacity: 0.6;
+}
+
+/* --- Adresse contact --- */
+.legal-notice address {
+  font-style: normal;
+  margin-bottom: 16px;
+  line-height: 1.9;
+}
+
+/* --- Footer --- */
+.legal-notice footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid #000000;
+}
+
+.legal-notice footer small {
+  font-size: 13px;
+  color: #888;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="legal">Legal notice</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/legal-notice.css">
+</head>
+
+<body>
+    <header id="mainHeader">
+        <a href="/index.html">
+            <button class="title">Level Hit</button>
+        </a>
+        <div class="header-buttons">
+            <div class="lang-container">
+                <button class="circle-btn" onclick="toggleLang()" id="currentLang">FR</button>
+                <div class="lang-dropdown" id="langMenu">
+                    <button onclick="setLanguageAndRedirect('fr', '/legal-notice.html')">Français</button>
+                    <button onclick="setLanguageAndRedirect('en', '/legal-notice.html')">English</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="legal-notice">
+
+            <section>
+                <h1>Legal Notice</h1>
+                <p><strong>Last updated: 29 March 2026</strong></p>
+            </section>
+
+            <nav aria-label="Table of contents">
+                <h2>Table of contents</h2>
+                <ol>
+                    <li><a href="#ml-editeur">Publisher</a></li>
+                    <li><a href="#ml-directeur">Director of Publication</a></li>
+                    <li><a href="#ml-hebergeur">Hosting</a></li>
+                    <li><a href="#ml-propriete">Intellectual Property</a></li>
+                    <li><a href="#ml-responsabilite">Limitation of Liability</a></li>
+                    <li><a href="#ml-donnees">Personal Data</a></li>
+                    <li><a href="#ml-tos">Terms of Service</a></li>
+                    <li><a href="#ml-droit">Applicable Law</a></li>
+                    <li><a href="#ml-contact">Contact</a></li>
+                </ol>
+            </nav>
+
+            <section id="ml-editeur">
+                <h2>1. Publisher</h2>
+                <p>This website and the mobile applications published under the <strong>Level Hit</strong> brand
+                    are edited by :</p>
+                <address>
+                    <strong>Level Hit</strong><br>
+                    Legal form: Sole Proprietor (Auto-entrepreneur)<br>
+                    Name: HUANG LUC<br>
+                    Address: 152 Rue de Tolbiac<br>
+                    75013 Paris, France<br>
+                    SIRET: 995 379 062 00012<br>
+                    SIREN: 995 379 062<br>
+                    Email: <a href="mailto:contact@levelhit.com">contact@levelhit.com</a>
+                </address>
+            </section>
+
+            <section id="ml-directeur">
+                <h2>2. Director of Publication</h2>
+                <p><strong>HUANG LUC</strong> — <a href="mailto:contact@levelhit.com">contact@levelhit.com</a></p>
+            </section>
+
+            <section id="ml-hebergeur">
+                <h2>3. Hosting</h2>
+                <p>The website is hosted by :</p>
+                <address>
+                    <strong>GitHub Pages - GitHub, Inc.</strong><br>
+                    88 Colin P Kelly Jr Street, San Francisco, CA 94107, United States<br>
+                </address>
+                <p>Mobile applications are distributed via :</p>
+                <ul>
+                    <li><strong>Apple App Store</strong> — Apple Inc., One Apple Park Way, Cupertino, CA 95014, United
+                        States</li>
+                    <li><strong>Google Play Store</strong> — Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA
+                        94043, United States</li>
+                </ul>
+            </section>
+
+            <section id="ml-propriete">
+                <h2>4. Intellectual Property</h2>
+                <p>The <strong>Level Hit</strong> trademark is a registered trademark. Any reproduction or use
+                    without prior written authorization constitutes an infringement subject to criminal and civil
+                    penalties.</p>
+            </section>
+
+            <section id="ml-responsabilite">
+                <h2>5. Limitation of Liability</h2>
+                <p><strong>Level Hit</strong> reserves the right to modify the content of this site at any time and
+                    without notice.</p>
+            </section>
+
+            <section id="ml-donnees">
+                <h2>6. Personal Data</h2>
+                <p>The processing of users' personal data is described in our <a href="/privacy-policy.html">Privacy
+                        Policy</a>, in compliance with the GDPR (EU Regulation 2016/679). Data controller:
+                    <strong>Level Hit</strong>.
+                </p>
+                <p>Contact: <a href="mailto:contact@levelhit.com">contact@levelhit.com</a> — CNIL: <a
+                        href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a></p>
+            </section>
+
+            <section id="ml-tos">
+                <h2>7. Terms of Service</h2>
+                <p>The use of mobile games published by <strong>Level Hit</strong> is governed by our <a
+                        href="/terms-of-service.html">Terms of Service (ToS)</a>.</p>
+            </section>
+
+            <section id="ml-droit">
+                <h2>8. Applicable Law and Jurisdiction</h2>
+                <p>These legal notices are governed by French law. In the event of a dispute, and in the absence of an
+                    amicable resolution, the competent courts of the jurisdiction of <strong>Level Hit</strong>'s
+                    registered office shall have sole jurisdiction.</p>
+            </section>
+
+            <section id="ml-contact">
+                <h2>9. Contact</h2>
+                <address>
+                    <strong>Level Hit</strong><br>
+                    152 Rue de Tolbiac<br>
+                    75013 Paris, France<br>
+                    Email: <a href="mailto:contact@levelhit.com">contact@levelhit.com</a>
+                </address>
+            </section>
+
+        </article>
+    </main>
+    <footer>
+        <div>
+            <a href="/terms-of-service.html" data-i18n="terms">Conditions générales d'utilisation</a>
+            <a href="/privacy-policy.html" data-i18n="privacy">Politique de confidentialité</a>
+            <a href="/legal-notice.html" data-i18n="legal">Mentions légales</a>
+        </div>
+
+        <section>
+            <p><small data-i18n="rights">© 2026 Level Hit — Tous droits réservés</small></p>
+        </section>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
