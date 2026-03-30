@@ -1,4 +1,5 @@
 {
-    "appEnabled": false,
+    "appEnabled": true,
+    "adsEnabled": false,
     "minRequiredVersion": "0.26.0"
 }
