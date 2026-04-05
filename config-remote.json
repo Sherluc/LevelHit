@@ -1,6 +1,6 @@
 {
     "appEnabled": true,
-    "adsEnabled": true,
+    "adsEnabled": false,
     "minRequiredVersion": "0.26.0",
     "termsVersion": "1.0.0",
     "termsUpdateDate": "29/03/2026"
