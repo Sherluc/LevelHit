@@ -78,15 +78,19 @@ section::after {
 
 /* ── Image placeholder / real image ── */
 .game-image {
-    width: min(280px, 80vw);
-    height: auto;
+    flex-shrink: 0;
+    width: min(220px, 60vw);
+    aspect-ratio: 9 / 19;
     border-radius: 20px;
     border: 2px solid var(--white-a60);
-    display: block;
     background: var(--white-a40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgba(74, 46, 0, 0.35);
     font-size: 14px;
     letter-spacing: 0.03em;
+    overflow: hidden;
 }
 
 /* ── Typography ── */
