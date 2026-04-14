@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Round Pop Bubble</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index-v2.css">
+</head>
+
+<body>
+    <header id="mainHeader">
+        <a href="/index.html">
+            <button class="title">Level Hit</button>
+        </a>
+        <div class="header-buttons">
+            <div class="lang-container">
+                <button class="circle-btn" onclick="toggleLang()" id="currentLang">FR</button>
+                <div class="lang-dropdown" id="langMenu">
+                    <button onclick="setLanguage('fr')">Français</button>
+                    <button onclick="setLanguage('en')">English</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="section1">
+        <div class="section-inner">
+            <h1 data-i18n="goRoundPopBubble"></h1>
+            <p class="tagline" data-i18n="rpbDescription"></p>
+
+            <img src="/images/1_game_with_text.webp" alt="Game screenshot 1" class="game-image">
+
+            <div class="scroll-hint" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="section-inner">
+            <h2 data-i18n="rpbFeatureTitle"></h2>
+            <p class="body-text" data-i18n="rpbFeatureDescription"></p>
+
+            <div class="cards">
+                <div class="card">
+                    <span class="card-icon">🎮</span>
+                    <div class="card-label" data-i18n="rpbFeature1Title"></div>
+                    <div class="card-desc" data-i18n="rpbFeature1Description"></div>
+                </div>
+                <div class="card">
+                    <span class="card-icon">🎯</span>
+                    <div class="card-label" data-i18n="rpbFeature2Title"></div>
+                    <div class="card-desc" data-i18n="rpbFeature2Description"></div>
+                </div>
+                <div class="card">
+                    <span class="card-icon">🎨</span>
+                    <div class="card-label" data-i18n="rpbFeature3Title"></div>
+                    <div class="card-desc" data-i18n="rpbFeature3Description"></div>
+                </div>
+                <div class="card">
+                    <span class="card-icon">🤼</span>
+                    <div class="card-label" data-i18n="rpbFeature4Title"></div>
+                    <div class="card-desc" data-i18n="rpbFeature4Description"></div>
+                </div>
+            </div>
+
+            <div class="scroll-hint" style="margin-top:32px" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="section-inner">
+            <h2 data-i18n="rpbScreenshots"></h2>
+            <p class="body-text" style="margin-bottom:24px" data-i18n="rpbScreenshotsDescription"></p>
+
+            <div class="screenshots">
+                <div class="screenshot"><img src="/images/1_game_with_text.webp" alt="Screenshot 1"></div>
+                <div class="screenshot"><img src="/images/2_game_with_text.webp" alt="Screenshot 2"></div>
+                <div class="screenshot"><img src="/images/3_game.webp" alt="Screenshot 3"></div>
+                <div class="screenshot"><img src="/images/4_multi_v2_with_text.webp" alt="Screenshot 4"></div>
+                <div class="screenshot"><img src="/images/4_multi_with_text.webp" alt="Screenshot 5"></div>
+                <div class="screenshot"><img src="/images/5_multi.webp" alt="Screenshot 6"></div>
+            </div>
+
+            <div class="scroll-hint" style="margin-top:32px" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="section4">
+        <div class="section-inner">
+            <h2 data-i18n="rpbCTATitle"></h2>
+            <p class="body-text" style="margin-bottom:24px" data-i18n="rpbCTADescription"></p>
+
+            <div class="badges">
+                <a class="badge" href="https://apps.apple.com/app/round-pop-bubble/id6760675980">App Store</a>
+            </div>
+        </div>
+
+        <footer>
+            <p data-i18n="rights">© 2026 Level Hit — Tous droits réservés</p>
+            <div class="footer-links">
+                <a href="/terms-of-service.html" data-i18n="terms">Conditions générales d'utilisation</a>
+                <a href="/privacy-policy.html" data-i18n="privacy">Politique de confidentialité</a>
+                <a href="/legal-notice.html" data-i18n="legal">Mentions légales</a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
