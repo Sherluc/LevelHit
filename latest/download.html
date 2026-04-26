@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        const ANDROID = "https://play.google.com/store/apps/details?id=com.levelhit.roundpopbubble";
+        const IOS = "https://apps.apple.com/app/round-pop-bubble/id6760675980";
+
+        const isIOS = /iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent);
+
+        window.location.replace(isIOS ? IOS : ANDROID);
+    </script>
+</body>
+
+</html>
