@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta name="robots" content="noindex">
@@ -30,7 +30,7 @@
 
             <section>
                 <h1>Privacy Policy</h1>
-                <p><strong>Last updated: 29 March 2026</strong><br>
+                <p><strong>Last updated: 6 June 2026</strong><br>
                     Applicable: Worldwide (GDPR · CCPA · COPPA) | Audience: 13 years and older</p>
             </section>
 
@@ -74,7 +74,7 @@
                     <li><strong>Technical data</strong> : device model, operating system version, game version,
                         configured language.</li>
                     <li><strong>Diagnostic data</strong> : crash reports, error logs, performance indicators. Collected
-                        via the Game and Unity services.</li>
+                        via Unity Diagnostics.</li>
                     <li><strong>Network data</strong> : IP address (anonymized), network connection type.</li>
                     <li><strong>Advertising data</strong> : ads displayed, impressions, clicks, conversions. Collected
                         by our advertising partners, subject to your consent for the personalized portion.</li>
@@ -83,17 +83,20 @@
 
             <section id="pp-usage">
                 <h2>3. Use of Data</h2>
-                <p>We process data based on legitimate interest, consent, or legal obligations, for the following
-                    purposes :</p>
+                <p>We process your data for the following purposes, on the legal bases set out by the GDPR
+                    (Article 6) :</p>
                 <ul>
-                    <li><strong>Running and improving the Games</strong> : game operation, progression, bug fixes,
-                        performance.</li>
-                    <li><strong>Technical diagnostics</strong> : crash detection, stability monitoring.</li>
-                    <li><strong>Advertising</strong> : serving ads via our LevelPlay mediation network. Personalized ads
-                        require your prior consent; otherwise only contextual non-personalized ads are displayed.</li>
-                    <li><strong>Advertising performance</strong> : analyzing campaign effectiveness.</li>
-                    <li><strong>Legal compliance</strong> : fulfilling legal obligations and responding to competent
-                        authorities.</li>
+                    <li><strong>Game operation</strong> (progression, local save, bug fixes) — legal basis:
+                        <em>performance of a contract</em> (Art. 6.1.b).</li>
+                    <li><strong>Personalized advertising</strong> (targeted ads served via LevelPlay and our mediated
+                        networks) — legal basis: <em>consent</em> (Art. 6.1.a). You may withdraw consent at any time
+                        in the Game settings.</li>
+                    <li><strong>Non-personalized and contextual advertising</strong> (when no consent is given) —
+                        legal basis: <em>legitimate interest</em> (Art. 6.1.f), namely funding the free Game.</li>
+                    <li><strong>Diagnostics, crash reports, performance metrics, anti-fraud</strong> — legal basis:
+                        <em>legitimate interest</em> (Art. 6.1.f), namely Game stability and security.</li>
+                    <li><strong>Responding to GDPR/CCPA requests and legal compliance</strong> (responses to competent
+                        authorities) — legal basis: <em>legal obligation</em> (Art. 6.1.c).</li>
                 </ul>
             </section>
 
@@ -124,7 +127,7 @@
                 <p>We work with trusted third-party providers. Each has its own privacy policy and processes data under
                     its own terms.</p>
                 <ul>
-                    <li><strong>Unity Technologies</strong> — Game engine, analytics, advertising<br>
+                    <li><strong>Unity Technologies</strong> — Game engine and crash reporting (Unity Diagnostics)<br>
                         <a href="https://unity.com/legal/privacy-policy" target="_blank"
                             rel="noopener">https://unity.com/legal/privacy-policy</a>
                     </li>
@@ -134,17 +137,12 @@
                             rel="noopener">https://www.is.com/privacy-policy/</a>
                     </li>
 
-                    <li><strong>Unity Ads</strong> — Advertising network<br>
+                    <li><strong>Unity Ads</strong> — Advertising network (mediated via LevelPlay)<br>
                         <a href="https://unity.com/legal/privacy-policy" target="_blank"
                             rel="noopener">https://unity.com/legal/privacy-policy</a>
                     </li>
 
-                    <li><strong>Unity Analytics</strong> — In-game behavioral analysis<br>
-                        <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank"
-                            rel="noopener">https://unity.com/legal/game-player-and-app-user-privacy-policy</a>
-                    </li>
-
-                    <li><strong>Google AdMob</strong> — Advertising network<br>
+                    <li><strong>Google AdMob</strong> — Advertising network (mediated via LevelPlay)<br>
                         <a href="https://policies.google.com/privacy" target="_blank"
                             rel="noopener">https://policies.google.com/privacy</a>
                     </li>
@@ -168,9 +166,27 @@
 
             <section id="pp-conservation">
                 <h2>6. Data Retention</h2>
-                <p>We retain any data we hold only for as long as necessary for the purposes for which it was collected.
-                    Retention periods for data processed by third-party services (Unity, advertising partners) are
-                    governed by their own policies.</p>
+                <p>We retain data only for the time necessary for the purposes described in section 3. Retention
+                    periods break down as follows :</p>
+                <ul>
+                    <li><strong>Local preferences and progression</strong> (language, in-game progression, consent
+                        choices) : stored locally on your device until the Game is uninstalled or settings are
+                        manually reset.</li>
+                    <li><strong>Cloud-saved progression data</strong> (where this feature is available) : stored with
+                        our hosting provider for the duration of your use of the Game, and deleted after an extended
+                        period of inactivity (typically 24 months) or upon your request. The hosting provider and its
+                        safeguards will be specified here once the feature is activated.</li>
+                    <li><strong>Diagnostic and performance data</strong> (Unity Diagnostics) : retained by Unity under
+                        its own policy, typically up to 12 months.</li>
+                    <li><strong>Advertising data</strong> (identifiers, impressions, interactions) : retained by our
+                        advertising partners (ironSource/LevelPlay, Google AdMob, Unity Ads) under their respective
+                        policies referenced in section 5.</li>
+                    <li><strong>GDPR/CCPA request register</strong> and related correspondence : retained by Level Hit
+                        for <strong>3 years</strong> from receipt, as proof of compliance.</li>
+                </ul>
+                <p>To delete data collected by third-party services, uninstall the Game, reset your advertising
+                    identifier at the operating-system level, or use the deletion mechanisms offered directly by these
+                    services (see links in section 5).</p>
             </section>
 
             <section id="pp-droits">
@@ -178,10 +194,12 @@
                 <p>You have the right to access, rectify, erase, object to, restrict, and port your personal data, as
                     well as to withdraw your consent at any time. You may also lodge a complaint with the CNIL (<a
                         href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>).</p>
-                <p><strong>California residents :</strong> we do not sell your personal data. For any request, write to
-                    <a href="mailto:contact@levelhit.com">contact@levelhit.com</a> with the subject "CCPA
-                    Request".
-                </p>
+                <p><strong>California residents (CCPA/CPRA) :</strong> we do not sell your personal information.
+                    However, if you consent to personalized advertising, certain identifiers may be <strong>shared</strong>
+                    with our advertising partners for cross-context behavioral advertising, which qualifies as
+                    "sharing" under the CPRA. You can opt out at any time by disabling personalized ads in the
+                    in-game settings, or by writing to <a href="mailto:contact@levelhit.com">contact@levelhit.com</a>
+                    with the subject "Do Not Sell or Share My Personal Information".</p>
                 <p>To exercise any of these rights, contact us at the address in section 11. We will respond within one
                     month, extendable where permitted by law.</p>
             </section>
@@ -225,11 +243,11 @@
         </article>
     </main>
     <footer>
-        <p data-i18n="rights">© 2026 Level Hit — Tous droits réservés</p>
+        <p data-i18n="rights">© 2026 Level Hit — All rights reserved</p>
         <div class="footer-links">
-            <a href="/terms-of-service.html" data-i18n="terms">Conditions générales d'utilisation</a>
-            <a href="/privacy-policy.html" data-i18n="privacy">Politique de confidentialité</a>
-            <a href="/legal-notice.html" data-i18n="legal">Mentions légales</a>
+            <a href="/terms-of-service.html" data-i18n="terms">Terms of Service</a>
+            <a href="/privacy-policy.html" data-i18n="privacy">Privacy Policy</a>
+            <a href="/legal-notice.html" data-i18n="legal">Legal Notice</a>
         </div>
     </footer>
 
