@@ -1,10 +1,10 @@
 {
     "appEnabled": true,
     "adsEnabled": false,
-    "minVersion": "1.2.0",
+    "minVersion": "",
     "minVersionAndroid": "",
     "minVersionIos": "",
-    "latestVersion": "",
+    "latestVersion": "1.0.0",
     "latestVersionAndroid": "",
     "latestVersionIos": "",
     "message": ""
