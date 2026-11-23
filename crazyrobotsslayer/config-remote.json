@@ -1,5 +1,5 @@
 {
-    "appEnabled": false,
+    "appEnabled": true,
     "adsEnabled": false,
     "interstitialEvery": 3,
     "minVersion": "",
