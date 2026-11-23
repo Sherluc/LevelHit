@@ -2,10 +2,10 @@
     "appEnabled": true,
     "adsEnabled": false,
     "interstitialEvery": 3,
-    "minVersion": "",
+    "minVersion": "0.4.0",
     "minVersionAndroid": "",
     "minVersionIos": "",
-    "latestVersion": "0.2.0",
+    "latestVersion": "",
     "latestVersionAndroid": "",
     "latestVersionIos": "",
     "message": ""
