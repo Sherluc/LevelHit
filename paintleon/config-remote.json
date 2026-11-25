@@ -1,6 +1,6 @@
 {
     "appEnabled": true,
-    "adsEnabled": true,
+    "adsEnabled": false,
     "minVersion": "",
     "minVersionAndroid": "",
     "minVersionIos": "",
