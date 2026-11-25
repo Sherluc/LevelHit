@@ -1,6 +1,6 @@
 {
     "appEnabled": true,
-    "adsEnabled": false,
+    "adsEnabled": true,
     "interstitialEvery": 3,
     "minVersion": "",
     "minVersionAndroid": "",
